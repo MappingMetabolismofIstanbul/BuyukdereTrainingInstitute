@@ -1,3 +1,4 @@
+
 var config = {
     // style: 'mapbox://styles/mapbox/streets-v12',
     // leave commented to use Mapbox Standard Style
@@ -19,7 +20,7 @@ var config = {
     title: 'Meyve Bahçıvanı Yetiştirme Yurdu / Fruit Cultivators’ Training Institute',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '0',
@@ -114,8 +115,8 @@ var config = {
              image: 'https://i.ibb.co/twhLWL5V/3.png',
             description: '',
             location: {
-              center: [29.035021075569365,41.15493563639177],
-                zoom: 16,
+              center: [29.02952153978239,41.15418264964043],
+                zoom: 18,
                 pitch: 40,
                 bearing: 0
             },
@@ -144,13 +145,13 @@ var config = {
              image: 'https://i.ibb.co/k6M4c0f0/4.png',
             description: '',
             location: {
-                center: [29.030482323037997,41.154185523144065],
-                zoom: 17,
-                pitch: 40,
+                center: [29.025543986810472,41.15435579481718],
+                zoom: 15,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -166,31 +167,6 @@ var config = {
                 // }
             ]
         },
-        {
-            id: '5',
-            alignment: 'right',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                 center: [29.030482323037997,41.154185523144065],
-                zoom: 19,
-                pitch: 40,
-                bearing: 0,
-        
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 0, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+       
     ]
 };
